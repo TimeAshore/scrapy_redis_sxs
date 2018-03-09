@@ -105,7 +105,7 @@ SCHEDULER_QUEUE_CLASS='scrapy_redis.queue.SpiderPriorityQueue'
 ### master mongodb部分截图：
 ![master mongodb](https://upload-images.jianshu.io/upload_images/9136166-5617b13694b9bb57.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
-本项目已上传到github，欢迎友情star: 
+欢迎友情star,github地址: https://github.com/TimeAshore/scrapy_redis_sxs/
 
 本人也比较小白  学术尚浅，如有什么问题，欢迎提出来共同进步。
 
