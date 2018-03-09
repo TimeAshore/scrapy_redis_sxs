@@ -1,7 +1,7 @@
 # scrapy_redis_sxs
 以前写的爬虫，无论是单线程，多线程异步等都是在自己的电脑上运行的。  
 好处是单个爬虫方便管理，调试；但当有了大量的URL需要爬取，用分布式爬虫无疑是最好的选择。  
-我的测试代码中目标网站是实习僧网，约2w个URL，单个scrapy与3个scrapy-redis分布式时间比约为 5： 1  （代码已做修改，仅提供数百Url测试使用，更多url请自行获取）
+我的测试代码中目标网站是实习僧网，约2w个URL，单个scrapy与3个scrapy-redis分布式时间比约为 5： 1  （代码已做修改，仅提供数百Url测试使用，更多url请自行获取）  
 这篇文章会通过一个例子详细介绍scrapy-redis原理及其实现过程。  
 ## 0.安装scrapy_redis
 windows、ubuntu安装请参看：http://blog.fens.me/linux-redis-install/  
